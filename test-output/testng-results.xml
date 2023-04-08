@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T12:05:57Z" name="Para Bank Application Test Automation Test Suite" finished-at="2023-02-27T12:06:49Z" duration-ms="51537">
+    <groups>
+    </groups>
+    <test started-at="2023-02-27T12:05:57Z" name="Para Bank App Test Cases" finished-at="2023-02-27T12:06:49Z" duration-ms="51537">
+      <class name="com.ddt.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:35:57Z" name="setUp" finished-at="2023-02-27T17:36:01Z" duration-ms="4056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:01Z" name="loginPageTitleTest" finished-at="2023-02-27T17:36:01Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:01Z" name="tearDown" finished-at="2023-02-27T17:36:01Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:06Z" name="setUp" finished-at="2023-02-27T17:36:10Z" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="parabankLogoImageTest()[pri:2, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:10Z" name="parabankLogoImageTest" finished-at="2023-02-27T17:36:11Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parabankLogoImageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:11Z" name="tearDown" finished-at="2023-02-27T17:36:11Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:16Z" name="setUp" finished-at="2023-02-27T17:36:20Z" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:3, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:20Z" name="loginTest" finished-at="2023-02-27T17:36:20Z" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.LoginPageTest@7ea37dbf]" started-at="2023-02-27T17:36:20Z" name="tearDown" finished-at="2023-02-27T17:36:21Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ddt.test.LoginPageTest -->
+      <class name="com.ddt.test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:01Z" name="setUp" finished-at="2023-02-27T17:36:06Z" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:06Z" name="verifyHomePageTitle" finished-at="2023-02-27T17:36:06Z" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ParaBank | Accounts Overview] but found [ParaBank | Error]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ParaBank | Accounts Overview] but found [ParaBank | Error]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.ddt.test.HomePageTest.verifyHomePageTitle(HomePageTest.java:48)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:06Z" name="tearDown" finished-at="2023-02-27T17:36:06Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:11Z" name="setUp" finished-at="2023-02-27T17:36:16Z" duration-ms="5211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAbousUsLinkTest()[pri:2, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:16Z" name="verifyAbousUsLinkTest" finished-at="2023-02-27T17:36:16Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbousUsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:16Z" name="tearDown" finished-at="2023-02-27T17:36:16Z" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:21Z" name="setUp" finished-at="2023-02-27T17:36:24Z" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyServicesLinkTest()[pri:3, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:24Z" name="verifyServicesLinkTest" finished-at="2023-02-27T17:36:25Z" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyServicesLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:25Z" name="tearDown" finished-at="2023-02-27T17:36:26Z" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:26Z" name="setUp" finished-at="2023-02-27T17:36:30Z" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductsLinkTest()[pri:4, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:30Z" name="verifyProductsLinkTest" finished-at="2023-02-27T17:36:35Z" duration-ms="5334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:35Z" name="tearDown" finished-at="2023-02-27T17:36:35Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:35Z" name="setUp" finished-at="2023-02-27T17:36:39Z" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLocationsLinkTest()[pri:5, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:39Z" name="verifyLocationsLinkTest" finished-at="2023-02-27T17:36:44Z" duration-ms="4273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLocationsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:44Z" name="tearDown" finished-at="2023-02-27T17:36:44Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:44Z" name="setUp" finished-at="2023-02-27T17:36:48Z" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAdminLinkTest()[pri:6, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:48Z" name="verifyAdminLinkTest" finished-at="2023-02-27T17:36:49Z" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ddt.test.HomePageTest@4b44655e]" started-at="2023-02-27T17:36:49Z" name="tearDown" finished-at="2023-02-27T17:36:49Z" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ddt.test.HomePageTest -->
+    </test> <!-- Para Bank App Test Cases -->
+  </suite> <!-- Para Bank Application Test Automation Test Suite -->
+</testng-results>

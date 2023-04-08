@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Para Bank Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Para Bank App Test Cases(failed)">
+    <classes>
+      <class name="com.ddt.test.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ddt.test.HomePageTest -->
+    </classes>
+  </test> <!-- Para Bank App Test Cases(failed) -->
+</suite> <!-- Failed suite [Para Bank Application Test Automation Test Suite] -->
